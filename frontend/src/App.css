@@ -1,0 +1,145 @@
+/* General Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  padding: 20px;
+  font-size: 18px; /* Smaller font size for the entire page */
+}
+
+.app-container {
+  max-width: 700px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Header Styles */
+h1, h2 {
+  text-align: center;
+  color: #333;
+}
+
+h1 {
+  font-size: 1.5em; /* Smaller font size for header */
+}
+
+h2 {
+  margin-top: 30px;
+  font-size: 1.2em; /* Smaller font size for sub-headers */
+}
+
+/* Form Styles */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px; /* Smaller gap between form fields */
+  margin-top: 20px;
+}
+
+input {
+  padding: 8px;
+  font-size: 0.9em; /* Smaller font size for input fields */
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  width: 100%;
+}
+
+button {
+  padding: 8px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 0.9em; /* Smaller font size for buttons */
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+button:disabled {
+  background-color: #ddd;
+  cursor: not-allowed;
+}
+
+/* Table Styles */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  font-size: 0.9em; /* Smaller font size for table content */
+}
+
+th, td {
+  padding: 10px 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: #f2f2f2;
+  color: #333;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+tr:hover {
+  background-color: #f1f1f1;
+}
+
+td button {
+  margin: 0 5px;
+  padding: 5px 10px;
+  font-size: 0.8em; /* Smaller font size for buttons */
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.update {
+  background-color: #007BFF;
+  border: none;
+  color: white;
+}
+
+.delete {
+  background-color: #FF5733;
+  border: none;
+  color: white;
+}
+
+.update:hover {
+  background-color: #0056b3;
+}
+
+.delete:hover {
+  background-color: #e94f3a;
+}
+
+/* No Data Message */
+p {
+  text-align: center;
+  font-size: 1em; /* Smaller font size for no data message */
+  color: #888;
+}
+
+/* Scroll to Update Form */
+div[ref] {
+  margin-top: 50px;
+}
